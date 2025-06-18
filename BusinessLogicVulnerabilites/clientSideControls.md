@@ -94,7 +94,7 @@ productId=1&price=1
 
 4. **Order Confirmation:**
    Screenshot of the success message after clicking "Place order."
-   ![After Intercept](./orderconfirmaiton.png)
+   ![After Intercept](./orderconfirmation.png)
 
 ---
 
