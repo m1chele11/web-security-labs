@@ -1,4 +1,4 @@
-````markdown
+
 # Lab: Excessive Trust in Client-Side Controls (Price Manipulation)
 
 ## Lab Description
@@ -47,15 +47,14 @@ This lab involves a business logic vulnerability in a shopping application where
 ### 5. Modify the Price Parameter
 - In the request body, find:
   
-  ```text
+  text
   price=133700
-````
+
 
 * Change the value to:
 
-  ```text
+  text
   price=1
-  ```
 
 * Click **Forward** and then **Forward all** to send the manipulated request.
 
@@ -72,29 +71,28 @@ This lab involves a business logic vulnerability in a shopping application where
 
 ### Original Request:
 
-```http
+http
 POST /cart HTTP/1.1
 Host: <lab-host>
-...
 
 productId=1&price=133700
-```
+
 
 ### Modified Request:
 
-```http
+http
 POST /cart HTTP/1.1
 Host: <lab-host>
-...
+
 
 productId=1&price=1
-```
+
 
 ---
 
 ## Screenshots and Images
 
-1. **Order Confirmation:**
+4. **Order Confirmation:**
    Screenshot of the success message after clicking "Place order."
    ![After Intercept](./orderconfirmaiton.png)
 
