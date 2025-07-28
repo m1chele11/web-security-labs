@@ -47,11 +47,11 @@ email=[wiener3@gmail.com](mailto:wiener3@gmail.com)\&csrf=valid-csrf-token
 
 * Modify the CSRF token to an invalid value and send the POST request.
 * Observe that the server rejects the request due to invalid CSRF token.
-```
+
 
 ![Weakness](./findingweakness.png)
 
-```
+
 ---
 
 ### 3. Change the Request Method to GET
@@ -89,6 +89,7 @@ GET /my-account/change-email?email=[attacker@evil.com](mailto:attacker@evil.com)
 * Visit the exploit URL to simulate the victim visiting a malicious site.
 * The victim’s browser automatically submits the GET request with their authentication cookie.
 * The victim’s email is changed to `attacker@evil.com`, bypassing CSRF protections.
+
 ![Exploit](./Exploit.png)
 
 ---
