@@ -1,4 +1,4 @@
-```markdown
+
 # Lab: CSRF Where Token Validation Depends on Request Method
 
 ## Lab Description
