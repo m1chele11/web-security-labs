@@ -1,4 +1,4 @@
-```md
+
 # Lab: Reflected XSS into HTML Context with Nothing Encoded
 
 ## Lab Description
